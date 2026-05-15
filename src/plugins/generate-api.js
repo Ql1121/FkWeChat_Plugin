@@ -65,7 +65,8 @@ async function generatePluginsAPI() {
           author: props.author || '未知作者',
           name: props.name || folder,
           description: props.desc || '',
-          downloadUrl: `https://YunJavaPro.github.io/FkWeChat_Plugin/plugins/${folder}/${folder}.zip`,
+          // 去掉了多余的 /${folder}/
+          downloadUrl: `https://YunJavaPro.github.io/FkWeChat_Plugin/plugins/${folder}.zip`,
           version: props.version || '1.0.0',
           readme
         });
