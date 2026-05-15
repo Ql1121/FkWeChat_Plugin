@@ -85,8 +85,8 @@ export default function PluginDetail() {
   return (
     <div className="min-h-screen bg-white">
       {/* 固定的返回按钮 */}
-      <div className="fixed top-0 left-0 right-0 z-50 bg-white">
-        <div className="max-w-3xl mx-auto px-4 py-4">
+      <div className="fixed top-0 left-0 right-0 z-40 bg-white">
+        <div className="max-w-3xl mx-auto px-4 py-4 flex items-center gap-2">
           <Link
             to="/"
             className="inline-flex items-center gap-2 text-sm font-medium text-gray-600 hover:text-gray-900"
