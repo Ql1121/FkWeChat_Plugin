@@ -1,0 +1,11 @@
+{
+  "host": "0.0.0.0",
+  "port": 8888,
+  "path": "/mcp",
+  "mcpServers": {
+    "Fkw-Mcp": {
+      "url": "http://localhost:8888/mcp",
+      "transport": "streamable-http"
+    }
+  }
+}

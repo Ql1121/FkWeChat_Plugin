@@ -1,0 +1,4 @@
+name=MCP服务器插件
+author=cuan
+version=1.0.0
+desc=基于FkWeChat宿主脚本环境实现的MCP服务器插件
